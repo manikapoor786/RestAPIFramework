@@ -65,6 +65,7 @@ public class StepDefinitionPlaceValidation extends Utils {
 		user_calls_something_with_post_http_request(resource,"GET");
 		String actualName= getJsonPath(response,"name");
 		assertEquals(actualName, expectedName);
+		System.out.println("learning git branching");
 	}
 
 	@Given("Delete Place payload")
